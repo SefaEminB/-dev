@@ -1,0 +1,15 @@
+terimler = {
+    'LOL' : 'komik bir şeye verilen cevap' ,
+'CRINGE' : 'garip ya da utandirici bir şey' ,
+'ROFL' :'bir şakaya karşilik cevap' ,
+'SHEESH' : 'onaylamamak' ,
+'CREEPY' : 'korkunç' ,
+'AGGRO' : 'agresifleşmek/sinirlenmek'
+}
+
+word = input("Terim giriniz:")
+
+if word in terimler.keys():
+    print(terimler[word])
+else:
+    print('hatalı giriş')
